@@ -12,5 +12,9 @@ jobs:
           name: run1
           command: |
             uname -a
+      - run:
+          name: run2
+          command: |
+            systemctl status
 
 # vim:ts=2:sw=2:et:
