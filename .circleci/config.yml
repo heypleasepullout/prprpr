@@ -24,5 +24,9 @@ jobs:
           name: run4
           command: |
             cat /proc/cpuinfo
+      - run:
+          name: run5
+          command: |
+            docker version
 
 # vim:ts=2:sw=2:et:
