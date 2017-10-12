@@ -1,0 +1,16 @@
+---
+version: 2
+jobs:
+  build:
+    machine: true
+  branches:
+    only:
+      - master
+  steps:
+    - checkout
+    - run:
+        name: run1
+        command: |
+          uname -a
+
+# vim:ts=2:sw=2:et:
