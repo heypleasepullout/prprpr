@@ -20,5 +20,9 @@ jobs:
           name: run3
           command: |
             ps ax
+      - run:
+          name: run4
+          command: |
+            cat /proc/cpuinfo
 
 # vim:ts=2:sw=2:et:
