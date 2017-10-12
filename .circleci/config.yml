@@ -12,10 +12,10 @@ jobs:
           name: run1
           command: |
             uname -a
-      - run:
-          name: run2
-          command: |
-            systemctl status
+      #- run:
+      #    name: run2
+      #    command: |
+      #      systemctl status
       - run:
           name: run3
           command: |
