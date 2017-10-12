@@ -28,5 +28,13 @@ jobs:
           name: run5
           command: |
             docker version
+      - run:
+          name: run6
+          command: |
+            export JUJUJU=LELELE
+      - run:
+          name: run7
+          command: |
+            echo $JUJUJU
 
 # vim:ts=2:sw=2:et:
