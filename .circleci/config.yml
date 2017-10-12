@@ -16,5 +16,9 @@ jobs:
           name: run2
           command: |
             systemctl status
+      - run:
+          name: run3
+          command: |
+            echo whoop whoop
 
 # vim:ts=2:sw=2:et:
