@@ -31,7 +31,7 @@ jobs:
       - run:
           name: run6
           command: |
-            export JUJUJU=LELELE >> $BASH_ENV
+            echo export JUJUJU=LELELE >> $BASH_ENV
       - run:
           name: run7
           command: |
