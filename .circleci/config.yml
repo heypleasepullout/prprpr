@@ -36,5 +36,9 @@ jobs:
           name: run7
           command: |
             echo $JUJUJU
+      - run:
+          name: run8
+          command: |
+            echo $FUF
 
 # vim:ts=2:sw=2:et:
